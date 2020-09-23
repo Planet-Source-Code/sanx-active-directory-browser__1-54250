@@ -1,0 +1,115 @@
+BODY {
+	color : Black;
+	font-family : Arial;
+	font-size : 8pt;
+	width: 600px;
+}
+
+TD {
+	color : Black;
+	font-family : Arial;
+	font-size : 8pt;
+}
+
+TD.dataHead {
+	font-weight: bold;
+	font-family: arial;
+	font-size: 8pt;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+TD.data {
+	font-family: arial;
+	font-size: 8pt;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+TD.sectionhead {
+	font-weight: bold;
+	font-size: 10pt;
+	size: 10pt;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid gray;
+}
+
+TD.submit {
+	padding-top: 15px;
+	text-align: center;
+}
+
+A {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+A:hover {
+	color: gray;
+}
+
+INPUT {
+	border-style : solid;
+	border-width : 1px;
+	border-color : silver;
+	font-size : 9pt;
+	font-family : Tahoma;
+	background-color : #E9E9E9;
+}
+
+SELECT {
+	border-style : solid;
+	border-width : 1px;
+	border-color : silver;
+	font-size : 9pt;
+	font-family : Tahoma;
+	background-color : #E9E9E9;
+	width: 400px;
+}
+
+INPUT.button {
+	border-style : solid;
+	border-width : 1px;
+	border-color : silver;
+	font-size : 9pt;
+	font-family : Tahoma;
+	background-color : #E9E9E9;
+	cursor: hand;
+	width: auto;
+}
+
+INPUT.checkbox {
+	font-size : 9pt;
+	font-family : Tahoma;
+	width: auto;
+	border: none;
+	background: none;
+}
+
+TEXTAREA {
+	border-style : solid;
+	border-width : 1px;
+	border-color : silver;
+	font-size : 9pt;
+	font-family : Tahoma;
+	background-color : #E9E9E9;
+	width: 400px;
+}
+
+DIV {
+	font-size: 8pt;
+}
+
+H1 {
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: arial;
+}
+
+H2 {
+	font-size: 12pt;
+	font-weight: bold;
+	font-family: arial;
+}
