@@ -1,0 +1,27 @@
+============================================================
+                   ACTIVE DIRECTORY BROWSER
+============================================================
+
+Copyright
+---------
+
+All ASP code contained within this package is copyright Sanx, 2003-2004. You are hereby granted limited rights to copy, distribute and modify said code provided that:
+a) This copyright notice remains in place
+b) The resultant works are open source
+c) The resultant works are made available free of charge
+
+The icons and images within this package are copyright Foood (http://www.foood.net) and you may not modify or redistribute these icons, unless as part of this or a derivitive package without express permission from Foood.
+
+Installation
+------------
+
+To make this package work, you will need to modify the common.asp file to reflect the fully-qualified domain name of your Active Directory domain. The line you need to edit is:
+
+strDomainRoot = "DC=yourdomain,DC=yourcountry"
+
+You will also need to run the site with domain administrative permissions or using integrated windows authentication. The web-server must be a member of the domain to be managed, although it does not need to be a domain controller.
+
+Feedback and Questions
+----------------------
+
+For all questions, please refer to the support forums at http://www.sanx.org/forum/
